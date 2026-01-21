@@ -1,7 +1,7 @@
 name: android_battery_optimizations
-description: You can check battery otimization status and launch permission dialog. This plugin does not cover "manufacturer battery optimizations" checks yet. Planning to add this feature soon.
+description: You can check battery optimization status and launch permission dialog. This plugin does not cover "manufacturer battery optimizations" checks yet. Planning to add this feature soon.
 version: 0.0.2
-homepage: https://github.com/edex96/android_battery_optimizations
+homepage: https://github.com/lancehuang245/android_battery_optimizations
 
 environment:
   sdk: ^3.10.4
@@ -10,12 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.1.8
+  plugin_platform_interface: 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
+  flutter_lints: 
 
 flutter:
   plugin:
