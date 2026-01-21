@@ -7,7 +7,6 @@ version = "1.0-SNAPSHOT"
 
 android {
     namespace = "com.example.android_battery_optimizations"
-    compileSdk = flutter.targetSdkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -22,6 +21,7 @@ android {
 
     defaultConfig {
         minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
     }
 
     dependencies {
