@@ -31,3 +31,6 @@ migrate_working_dir/
 /coverage/
 .gradle
 build
+.kotlin
+gradlew
+gradlew.bat

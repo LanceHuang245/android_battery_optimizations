@@ -7,14 +7,13 @@ version = "1.0-SNAPSHOT"
 
 android {
     namespace = "com.example.android_battery_optimizations"
-    compileSdk = 35  // 使用最新的稳定 SDK 版本
+    compileSdk = flutter.targetSdkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
 
-    // AGP 9+ 新的 Kotlin 编译器配置方式
     kotlin {
         compilerOptions {
             jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
@@ -22,7 +21,7 @@ android {
     }
 
     defaultConfig {
-        minSdk = 21
+        minSdk = flutter.minSdkVersion
     }
 
     dependencies {
