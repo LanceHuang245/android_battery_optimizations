@@ -1,5 +1,6 @@
 plugins {
     id("com.android.library") version "9.0.0"
+    id("org.jetbrains.kotlin.android") version "2.1.0"
 }
 
 group = "com.example.android_battery_optimizations"
@@ -7,6 +8,7 @@ version = "1.0-SNAPSHOT"
 
 android {
     namespace = "com.example.android_battery_optimizations"
+    compileSdk = flutter.compileSdkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
